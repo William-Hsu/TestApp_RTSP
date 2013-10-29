@@ -2,7 +2,7 @@
   "name": "RTSP_TestApp",
   "description": "Test app for RTSP",
   "type": "web",
-  "launch_path": "/TestApp_RTSP/index.html",
+  "launch_path": "https://rawgithub.com/William-Hsu/TestApp_RTSP/master/index.html/index.html",
   "developer": {
     "name": "MozQATW Team",
     "url": "https://github.com/William-Hsu/TestApp_RTSP/"
