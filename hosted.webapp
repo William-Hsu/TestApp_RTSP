@@ -1,0 +1,48 @@
+{
+  "name": "RTSP_TestApp",
+  "description": "Test app for RTSP",
+  "type": "web",
+  "launch_path": "/TestApp_RTSP/index.html",
+  "developer": {
+    "name": "MozQATW Team",
+    "url": "https://github.com/William-Hsu/TestApp_RTSP/"
+  },
+  "messages": [
+     { "alarm": "/index.html" }
+  ],
+  "permissions": {
+      "audio-channel-content" : {"description":  "Use the audio channel for a music player"}
+  },
+  "locales": {
+    "ar": {
+      "name": "RTSP_TestApp",
+      "description": "RTSP test app"
+    },
+    "en-US": {
+      "name": "RTSP_TestApp",
+      "description": "RTSP test app"
+    },
+    "fr": {
+      "name": "RTSP_TestApp",
+      "description": "RTSP test app"
+    },
+    "zh-TW": {
+      "name": "RTSP_TestApp",
+      "description": "RTSP test app"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "60": "/style/icons/60/Video.png",
+    "128": "/style/icons/Video.png"
+  },
+  "activities": {
+    "view": {
+      "filters": {
+        "type": "url",
+        "url": { "required":true, "pattern":"mailto:.{1,16384}" }
+      }
+    }
+  },
+  "orientation": "portrait-primary"
+}
